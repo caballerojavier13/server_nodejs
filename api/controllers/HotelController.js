@@ -17,14 +17,16 @@
 
 module.exports = {
     
-  
+    star: function(req, res) {
+		var star = req.param('star');
+		console.log(star);
+		Hotel.findByEstrella(star).done(function(err, hotel){
+			res.json(hotel);
+		});
+
+    }
 
 
-  /**
-   * Overrides for the settings in `config/controllers.js`
-   * (specific to HotelController)
-   */
-  _config: {}
 
   
 };

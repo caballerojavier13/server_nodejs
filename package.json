@@ -1,7 +1,7 @@
 {
     "name": "web_server_hotel",
     "private": true,
-    "version": "0.0.0",
+    "version": "0.0.0-4",
     "description": "a Sails application",
     "dependencies": {
         "sails": "0.9.7",
@@ -17,5 +17,9 @@
     "main": "app.js",
     "repository": "",
     "author": "",
-    "license": ""
+    "license": "",
+    "subdomain": "web_server_hotel",
+    "engines": {
+        "node": "0.10.x"
+    }
 }

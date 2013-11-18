@@ -10,9 +10,17 @@ module.exports = {
 
   attributes: {
   	
-  	/* e.g.
-  	nickname: 'string'
-  	*/
+  	id_hotel:{
+  		type:'integer',
+    	required: true
+  	},
+  	nombre:'string',
+  	descripcion:'text',
+  	latitud:'float',
+  	longitud:'float',
+  	imagen:'string',
+  	logo:'string',
+  	estrella:'integer'
     
   }
 
